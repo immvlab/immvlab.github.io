@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMMV Lab</title>
+    <style>
+        body {
+            font-familintely: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background-color: #34495e;
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .project:last-child {
+            border-bottom: none;
+        }
+        
+        .project h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .project-meta {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IMMV Lab</h1>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About the Lab</h2>
+            <p>Tsinghua IMMV (Intelligent Manufacturing and Machine Vision) Lab, led by Associate Professor Long Zeng, is an interdisciplinary lab at Institute of Data and Information, Tsinghua University. The lab is dedicated to long-term research on deep learning theories and methods in the field of intelligent manufacturing, with a focus on breakthroughs in key technologies such as embodied intelligent industrial robots, service robots, reconfigurable flexible assembly systems, and intelligent CAD/CAM industrial software. Learn more about our work at <a href="https://jackyzengl.github.io/">official website</a>.</p>
+        </section>
+             
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Our lab is continuously recruiting postdocs, PhD students, and master's students in mechanical engineering, computer technology, automation and related fields. If you are interested in our research or projects, please feel free to contact us:</p>
+            <ul>
+                <li>Email: zenglong(at)sz.tsinghua.edu.cn</li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 IMMV Lab. All rights reserved.</p>
+            <p>Content on this website is licensed under a <a href="https://creativecommons.org/licenses/by/4.0/" style="color: white;">CC BY 4.0</a> license.</p>
+        </div>
+    </footer>
+</body>
+</html>
